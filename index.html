@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Web</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- pixabay.com 사람 이미지 다운로드 -->
+  <!-- removal.ai 배경 제거 -->
+<!-- 구글 폰트 -> icons -> menu.svg와 close.svg 다운로드 -->
+<nav>
+  <input type="checkbox" id="sidebar-active">
+  <label for="sidebar-active" class="open-sidebar-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#1f1f1f"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+  </label>
+
+  <label for="sidebar-active" id="overlay"></label>
+  <div class="links-container">
+    <label for="sidebar-active" class="close-sidebar-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#1f1f1f"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+    </label>
+
+    <a href="index.html" class="home-link">HOME</a>
+    <a href="#">About</a>
+    <a href="#">Projects</a>
+    <a href="#">Contact</a>
+    <a href="#">Login</a>
+  </div>
+</nav>
+
+  <header>
+    <img src="/img/photo.png">
+    <div>
+      <h1>아무개</h1>
+      <h2>프론트엔드 개발자</h2>
+      <p>안녕하십니까. 저는 웹 프론트엔드 개발자 아무개 입니다. 제 웹페이지에 방문해주셔서 감사합니다.</p>
+      <a href="#">Read More</a>
+    </div>
+  </header>
+
+  <section id="skill-section">
+    <h2>My Skill</h2>
+    <div class="wrapper">
+      <div class="skill-container">
+        <h3>프론트엔드</h3>
+        <ul>
+          <li>HTML, CSS <progress max="100" value="80"></progress></li>
+          <li>JavaScript <progress max="100" value="50"></progress></li>
+          <li>TypeScript <progress max="100" value="60"></progress></li>
+          <li>React.js <progress max="100" value="90"></progress></li>
+        </ul>
+      </div>
+      <div class="skill-container">
+        <h3>개발 도구</h3>
+        <ul>
+          <li>Git <progress max="100" value="20"></progress></li>
+          <li>Docker <progress max="100" value="40"></progress></li>
+          <li>Cloud <progress max="100" value="80"></progress></li>
+          <li>AI <progress max="100" value="86"></progress></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="project-section">
+    <h2>My Project</h2>
+    <div class="flex-container">
+      <details>
+        <summary>
+          <span class="number">1</span>
+          <h3>To Do WebApp</h3>
+        </summary>
+        <div class="text-container">
+          <p>프로젝트 소개글1111111111111111111111111111111111111111111111111111111</p>
+          <a href="#" class="project-link">Visit Project</a>
+        </div>
+      </details>
+    </div>
+    <div class="flex-container">
+      <details>
+        <summary>
+          <span class="number">2</span>
+          <h3>Weather WebApp</h3>
+        </summary>
+        <div class="text-container">
+          <p>프로젝트 소개글</p>
+          <a href="#" class="project-link">Visit Project</a>
+        </div>
+      </details>
+    </div>
+    <div class="flex-container">
+      <details>
+        <summary>
+          <span class="number">3</span>
+          <h3>ChatGPT WebApp</h3>
+        </summary>
+        <div class="text-container">
+          <p>프로젝트 소개글</p>
+          <a href="#" class="project-link">Visit Project</a>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <span>@</span>
+      <div>
+        <h3>Contact</h3>
+        <a href="#">email@email.com</a>
+        <h3>Location</h3>
+        <a href="#">주소</a>
+      </div>
+      <div>
+        <h3>Projects</h3>
+        <a href="#">Github</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
